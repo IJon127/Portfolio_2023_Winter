@@ -10,7 +10,7 @@
 }
 
 .ending-card__title {
-  font-size: 80px;
+  font-size: 5em;
   font-weight: 500;
   margin: 0;
 }
@@ -21,10 +21,18 @@
   margin-bottom: 45px;
   text-align: center;
 }
-.ending-card__btn-container {
-  /* display: flex; */
-}
 .ending-card__restart-btn {
   font-size: 1em;
   margin: 15px;
+}
+
+@media only screen and (min-width: 427px) and (max-width: 768px) {
+  .ending-card__title {
+    font-size: 4em;
+  }
+}
+@media only screen and (max-width: 426px) {
+  .ending-card__title {
+    font-size: 3em;
+  }
 }

@@ -20,31 +20,10 @@ body,
 * {
   color: #eee;
   font-family: "Open Sans", system-ui;
-}
-
-.big-title {
-  font-size: 3em;
-  margin-top: 20px;
-}
-
-.big-btn {
-  border-style: solid;
-  border-width: 1px;
-  border-radius: 35px;
-  font-size: 30px;
-  font-weight: 400;
-  padding: 15px 30px;
-  transition: all 0.4s ease;
-  -webkit-transition: all 0.4s ease;
-  margin: 15px;
-}
-
-.big-btn:hover {
-  background-color: #fff;
-  color: #333;
-  opacity: 0.2;
-  transform: scale(1.06);
-  transition: all 0.4s ease;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
 }
 
 ::-webkit-scrollbar {
@@ -68,7 +47,6 @@ body,
 ::-webkit-scrollbar-thumb:hover {
   background: #777;
   background-clip: content-box;
-  border-right: 15px solid transparent;
 }
 
 a {
@@ -103,4 +81,24 @@ h1 {
 }
 h2 {
   font-weight: 300;
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1200px) {
+  ::-webkit-scrollbar {
+    width: 12px;
+  }
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    border-right: 8px solid transparent;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  ::-webkit-scrollbar {
+    width: 7px;
+  }
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    border-right: 4px solid transparent;
+  }
 }

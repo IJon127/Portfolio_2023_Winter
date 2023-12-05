@@ -15,7 +15,7 @@ export default function Practices({ practices }) {
   return (
     <div className="practices">
       <div className="practices__header">
-        <h1>{practices.title}</h1>
+        <h1 className="big-title">{practices.title}</h1>
         <p>{practices.intro}</p>
       </div>
       <div className="practices__container">

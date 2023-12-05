@@ -14,7 +14,7 @@
   width: 80%;
   max-width: 1200px;
   background-color: #555;
-  padding: 50px;
+  padding: 2% 5%;
   overflow-y: scroll;
 }
 
@@ -30,4 +30,14 @@
   border-style: none;
   border-width: 1px;
   border-radius: 30px;
+}
+@media only screen and (min-width: 427px) and (max-width: 768px) {
+  .more-screen__container {
+    width: 85%;
+  }
+}
+@media only screen and (max-width: 426px) {
+  .more-screen__container {
+    width: 90%;
+  }
 }

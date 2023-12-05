@@ -1,4 +1,3 @@
-import { useScroll } from "@react-three/drei";
 import Card from "./card/Card";
 import ContactCard from "./card/ContactCard";
 import EndingCard from "./card/EndingCard";

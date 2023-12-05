@@ -25,7 +25,7 @@ export default function LoadingScreen({ dataLoading }) {
               exit={{ opacity: 0 }}
               transition={{ duration: 0.3, delay: 1 }}
             >
-              <motion.h3
+              <motion.p
                 className="loading-screen__text"
                 animate={{
                   opacity: [1, 0.3, 1],
@@ -35,8 +35,8 @@ export default function LoadingScreen({ dataLoading }) {
                   repeat: Infinity,
                 }}
               >
-                LOADING...
-              </motion.h3>
+                Preparing...
+              </motion.p>
             </motion.div>
           )}
         </motion.div>

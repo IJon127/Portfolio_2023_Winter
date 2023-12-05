@@ -78,7 +78,7 @@
           "Age is a significant factor in pregnancy success. Women delivering their first baby after 35 are considered advanced maternal age or elderly primigravida. As women age, the quality of their eggs declines, and pregnancy risks increase. These risks include preeclampsia, gestational diabetes, premature birth, low birth weight, expecting twins, miscarriage, Down syndrome, and other genetic disorders, as well as the likelihood of cesarean section or stillbirth."
         ],
         "lists": null,
-        "diagram": "13.png",
+        "diagram": "13-dark.png",
         "photo": null,
         "video": null
       },
@@ -246,7 +246,7 @@
           "Regarding colors, Famwood's historic link is pivotal. Since 1984, red, linked to Famwood's Chinese Name meaning 'red house', has been emblematic. A deep Crimson shade was chosen, along with grayscale tones, enhancing the classic essence and design coherence."
         ],
         "lists": null,
-        "diagram": "02.svg",
+        "diagram": "02-dark.svg",
         "photo": null,
         "video": null
       },
@@ -258,25 +258,7 @@
           "Within these subsections, the third layer is introduced through additional links. For instance, within the \"Mobile Home\" page, visitors are provided with avenues to access more detailed specifications or proceed to the tour reservation page, facilitated by a strategically placed 'call to action' button. Furthermore, a dedicated call to action button is consistently positioned in the bottom left corner of the page, ensuring easy access to the reservation page."
         ],
         "lists": null,
-        "diagram": "03.svg",
-        "photo": null,
-        "video": null
-      },
-      {
-        "title": null,
-        "subtitle": null,
-        "paragraphs": null,
-        "lists": null,
-        "diagram": "04.jpg",
-        "photo": null,
-        "video": null
-      },
-      {
-        "title": null,
-        "subtitle": null,
-        "paragraphs": null,
-        "lists": null,
-        "diagram": "05.jpg",
+        "diagram": "03-dark.svg",
         "photo": null,
         "video": null
       }
@@ -286,7 +268,7 @@
     "name": "hedonomic_yeshi",
     "cardPosition": { "top": "1500vh", "left": "0" },
     "heroVideo": null,
-    "heroImage": "01.png",
+    "heroImage": "01-dark.png",
     "gallery": null,
     "info": {
       "title": "Hedonomic Yeshi",
@@ -316,7 +298,7 @@
           "This project embodies the Hedonomic VR design principles, crafted by the Meta Reality Lab. Rooted in the concept of hedonomics, a specialized branch of ergonomics, this approach is dedicated to elevating human-computer interactions by promoting delightful experiences. At the core of this design philosophy lies the Hedonic Pyramid, a five-stage framework (safety, functionality, usability, pleasure, and individuation) that sets the foundation for an extraordinary virtual reality journey."
         ],
         "lists": null,
-        "diagram": "02.svg",
+        "diagram": "02-dark.svg",
         "photo": null,
         "video": null
       },
@@ -345,7 +327,7 @@
         ],
         "lists": null,
         "diagram": null,
-        "photo": "03.jpg",
+        "photo": "03-dark.jpg",
         "video": null
       },
       {
@@ -375,7 +357,7 @@
         ],
         "lists": null,
         "diagram": null,
-        "photo": "04.jpg",
+        "photo": "04-dark.jpg",
         "video": null
       },
       {
@@ -391,7 +373,7 @@
           "Accessible Inputs",
           "Clear Feedback in Interactions"
         ],
-        "diagram": "05.svg",
+        "diagram": "05-dark.jpg",
         "photo": null,
         "video": null
       },
@@ -408,7 +390,7 @@
           "Stationary Game Navigation: Users have the flexibility to navigate the game as a stationary experience by using the vendor/map feature in the menu, enabling seamless transportation between locations."
         ],
         "diagram": null,
-        "photo": "06.jpg",
+        "photo": "06-dark.jpg",
         "video": null
       },
       {
@@ -441,7 +423,7 @@
           "Neon-Themed Design: A neon color theme and dark background are employed to create a vivid night atmosphere, immersing users in an enthralling visual experience."
         ],
         "diagram": null,
-        "photo": "07.jpg",
+        "photo": "07-dark.jpg",
         "video": null
       },
       {
@@ -461,7 +443,7 @@
         "subtitle": null,
         "paragraphs": null,
         "lists": null,
-        "diagram": "08.svg",
+        "diagram": "08-dark.svg",
         "photo": null,
         "video": null
       },
@@ -515,7 +497,7 @@
           "The pre-show gallery is divided into four distinctive sections – DNA, Ecosystem, Food Web, and Communications. These segments are thoughtfully curated, employing distinct color palettes to evoke specific emotions. For instance, the DNA section uses teals and purples, symbolizing genetic mysteries. Similarly, the ecosystem utilizes various shades of green to represent natural harmony."
         ],
         "lists": null,
-        "diagram": "06.svg",
+        "diagram": "06-dark.svg",
         "photo": null,
         "video": null
       },
@@ -526,7 +508,7 @@
           "Upon entering, visitors are immersed in a captivating interplay of lights and colors, drawn to ribbon-shaped projection canvases within each section. These canvases utilize projection mapping technology, creating dynamic backdrops that bring visual narratives to life. Accompanying each canvas are interactive kiosks, offering touch-screen interfaces that facilitate deeper exploration."
         ],
         "lists": null,
-        "diagram": "07.jpg",
+        "diagram": "07-dark.jpg",
         "photo": null,
         "video": null
       },
@@ -643,7 +625,7 @@
           "Photographic representations of the city are reproduced into a series of color-coded images. Environmental objects are categorized, grouped and layered before colorized in a four- color printing manner, except for that we are painting here with color lights, taking advantage of a RGB color model for its additive nature. A rather complicated coding pattern is established to carefully assign contrasting colors to different groups of visual elements, in order to create overlapping addition of lights. A car would be projected in red and yellow from one projector, as well as cyan and blue from another. If one is to move in front of the two projectors, the car would be seen as white first (no shadow), and then either red or blue (alternative shadows), depending on the relative locations of the viewer blocking the lights."
         ],
         "lists": null,
-        "diagram": "12.png",
+        "diagram": "12-dark.png",
         "photo": null,
         "video": null
       },

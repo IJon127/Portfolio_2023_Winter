@@ -1,6 +1,7 @@
 import { useState } from "react";
 import "./Header.css";
 import NavSocial from "./NavSocial.jsx";
+import NavMail from "./NavMail.jsx";
 
 function Header({ setModal, about }) {
   // const [navSmallScreenOpen, setNavSmallScreenOpen] = useState(false);
@@ -37,6 +38,7 @@ function Header({ setModal, about }) {
         </button>
         <NavSocial />
       </div>
+      <NavMail clickContact={clickContact} />
     </div>
   );
 }

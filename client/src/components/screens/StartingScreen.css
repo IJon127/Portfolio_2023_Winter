@@ -27,3 +27,29 @@
   text-align: center;
   letter-spacing: 0.13em;
 }
+
+@media only screen and (min-width: 427px) and (max-width: 768px) {
+  .starting-screen__title {
+    font-size: 3.3em;
+    letter-spacing: 0.1em;
+  }
+
+  .starting-screen__subtitle {
+    font-size: 1.2em;
+    margin-bottom: 45px;
+    letter-spacing: 0.1em;
+  }
+}
+
+@media only screen and (max-width: 426px) {
+  .starting-screen__title {
+    font-size: 2.5em;
+    letter-spacing: 0.1em;
+  }
+
+  .starting-screen__subtitle {
+    font-size: 1em;
+    margin-bottom: 25px;
+    letter-spacing: 0.05em;
+  }
+}

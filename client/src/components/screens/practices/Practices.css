@@ -6,6 +6,7 @@
 
 .practices__header {
   display: flex;
+  gap: 20px;
   margin-bottom: 50px;
 }
 
@@ -19,5 +20,23 @@
 .practices__container {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 50px 15px;
+  gap: 25px 15px;
+}
+
+@media only screen and (max-width: 768px) {
+  .practices__header {
+    flex-direction: column;
+  }
+}
+@media only screen and (min-width: 427px) and (max-width: 768px) {
+  .practices__container {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px 10px;
+  }
+}
+@media only screen and (max-width: 426px) {
+  .practices__container {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 6px 5px;
+  }
 }

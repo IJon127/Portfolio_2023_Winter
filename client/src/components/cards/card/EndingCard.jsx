@@ -1,18 +1,19 @@
+import { useState, useEffect, Suspense } from "react";
 import "./EndingCard.css";
 
 export default function EndingCard({ setActiveAction, position }) {
+  const [hidden, setHidden] = useState(true);
+  const [words, setWords] = useState(`Let's Talk`);
+
   const copyEmail = () => {
     const email = "ih2168@nyu.edu";
     navigator.clipboard.writeText(email);
-    setWords("COPIED!");
-    setTimeout(() => {
-      setWords("Let's Talk");
-    }, 1500);
+    setWords("Email Copied");
   };
 
   return (
     <div style={{ position: "absolute", ...position }} className="ending-card">
-      <h1 className="ending-card__title">Let's talk</h1>
+      <h1 className="ending-card__title">{words}</h1>
       <button className="big-btn" onClick={copyEmail}>
         E-Mail
       </button>

@@ -14,10 +14,9 @@
 
 @media only screen and (max-width: 768px) {
   .nav-social {
-    margin-top: 15px;
-    width: 120px;
+    width: 80px;
   }
   .nav-social-btn {
-    width: 25px;
+    width: 16px;
   }
 }

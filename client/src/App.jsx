@@ -7,6 +7,7 @@ import StartingScreen from "./components/screens/StartingScreen";
 import MoreScreen from "./components/screens/MoreScreen.jsx";
 import Header from "./components/header/Header.jsx";
 import LoadingScreen from "./components/screens/LoadingScreen.jsx";
+import "./App.css";
 
 export default function App() {
   const [start, setStart] = useState(false);
@@ -63,7 +64,6 @@ export default function App() {
 
   return (
     <>
-      <LoadingScreen dataLoading={loading} />
       {!aboutLoading && <Header setModal={setModal} about={about} />}
       <Canvas>
         <Suspense>
@@ -77,8 +77,7 @@ export default function App() {
           />
         </Suspense>
       </Canvas>
-      {!start && <StartingScreen setStart={setStart} />}
-      <Loader containerStyles={{ backgroundColor: "#333333" }} />
+      {!loading && !start && <StartingScreen setStart={setStart} />}
       {modalOpened && (
         <MoreScreen
           content={modalContent}
@@ -86,6 +85,8 @@ export default function App() {
           setModalOpened={setModalOpened}
         />
       )}
+      <LoadingScreen dataLoading={loading} />
+      <Loader containerStyles={{ backgroundColor: "#333333" }} />
     </>
   );
 }
