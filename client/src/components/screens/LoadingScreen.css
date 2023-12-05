@@ -1,0 +1,22 @@
+.loading-screen {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #333;
+  z-index: 4000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.loading-screen__container {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.loading-screen__text {
+  font-weight: 100;
+}

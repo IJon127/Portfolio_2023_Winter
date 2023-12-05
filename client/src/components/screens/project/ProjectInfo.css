@@ -1,0 +1,25 @@
+.project-info__title {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+.project-info__subtitle {
+  margin-top: 0;
+  margin-bottom: 1em;
+  text-align: center;
+  font-weight: 400;
+  font-style: italic;
+  /* line-height: 150%; */
+}
+.project-info__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.project-info__content p {
+  /* font-style: italic; */
+  line-height: 100%;
+  margin: 3px;
+  font-weight: 100;
+}

@@ -1,0 +1,27 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  padding-top: 20px;
+  z-index: 10;
+  display: flex;
+  justify-content: flex-end;
+}
+.header__container {
+  padding: 0 50px;
+  height: 50px;
+  display: flex;
+  gap: 30px;
+  /* align-items: stretch; */
+}
+.header__btn {
+  padding-bottom: 5px;
+}
+
+@media only screen and (max-width: 426px) {
+  .header {
+    padding-top: 8px;
+    padding-bottom: 8px;
+  }
+}

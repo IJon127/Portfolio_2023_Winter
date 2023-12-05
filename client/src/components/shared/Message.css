@@ -1,0 +1,14 @@
+.message {
+}
+.message__container {
+  margin-bottom: 50px;
+}
+.message__sent-message {
+  margin-top: 20px;
+}
+.message__validation-container {
+  margin-top: 20px;
+}
+.message__validation {
+  margin-bottom: 10px;
+}

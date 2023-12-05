@@ -1,0 +1,23 @@
+.nav-social {
+  display: flex;
+  justify-content: space-between;
+  width: 90px;
+}
+
+.nav-social-btn {
+  align-self: center;
+  width: 20px;
+}
+.nav-social-btn img {
+  width: 100%;
+}
+
+@media only screen and (max-width: 768px) {
+  .nav-social {
+    margin-top: 15px;
+    width: 120px;
+  }
+  .nav-social-btn {
+    width: 25px;
+  }
+}

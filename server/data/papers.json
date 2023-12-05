@@ -1,0 +1,27 @@
+{
+  "intro": [
+    "This section contains a compilation of research papers meticulously penned during my pursuit of an MSc in Creative Arts and Mental Health at Queen Mary University of London. These papers are the culmination of my academic journey, exploring the intricate interplay between creativity, technology, and mental health. Delving into diverse topics, these papers reflect my dedication to unraveling the profound connections between art, innovation, and mental well-being."
+  ],
+  "data": [
+    {
+      "name": "QMUL_dissertation",
+      "title": "Expressive Therapy in the Digital Era: A Pilot Study Analysing teamLab Collections",
+      "abstract": "No one can deny that new technology has penetrated society and influenced human behaviour. The digital medium promises to be an important tool in the psychotherapy domain. This study aims to evaluate the feasibility of the digital medium as a basis for expressive therapeutic tools and provide possible advice for mental health professionals. This paper discusses the topic by analysing and comparing expressive therapy and a few digital art works by a world-renowned digital art company, teamLab....."
+    },
+    {
+      "name": "QMUL_essay1",
+      "title": "Applying Popular Culture in Creative Activities for Young People",
+      "abstract": "Both art educators and art therapists have reported the challenge of capturing adolescents’ interest in art sessions. When children get older, they seem to lose their passion for creating (Toku, 2001). However, is this true? Do young people really stop creating or they simply dislike the formal art sessions provided by organisations?..."
+    },
+    {
+      "name": "QMUL_essay2",
+      "title": "Fostering a Healing and Creativity Environment",
+      "abstract": "Supporting a group of teens who had been excluded from mainstream schools revealed how influential the environmentcould be and forced me to wonder what sort of space could have a positive effect on young people. What and how do environmental elements influence students’ creativity and wellbeing?..."
+    },
+    {
+      "name": "QMUL_essay3",
+      "title": "Prevalence of Type II Bipolar among Young People",
+      "abstract": "A simple search for “the most common misdiagnosed mental disorders” on the internet places bipolar related disordershigh on the list. This prevalence is not only because the highly overlapping conditions between bipolar and other psychiatric disorders (Strakowski et al., 2011) but also because the symptoms per se could be sometimes viewed as simply being a human (Frances, 2013)...."
+    }
+  ]
+}

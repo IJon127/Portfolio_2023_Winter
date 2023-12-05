@@ -1,0 +1,33 @@
+.more-screen {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  z-index: 50;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  background-color: rgba(30, 30, 30, 0.9);
+}
+
+.more-screen__container {
+  width: 80%;
+  max-width: 1200px;
+  background-color: #555;
+  padding: 50px;
+  overflow-y: scroll;
+}
+
+.more-screen__close-btn {
+  font-size: 20px;
+  position: fixed;
+  top: 1vw;
+  right: 2vw;
+  text-align: center;
+  color: white;
+  background-color: rgba(0, 0, 0, 0);
+  padding: 20px 24px;
+  border-style: none;
+  border-width: 1px;
+  border-radius: 30px;
+}

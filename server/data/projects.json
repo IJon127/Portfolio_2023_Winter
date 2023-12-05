@@ -1,0 +1,794 @@
+[
+  {
+    "name": "under_the_water",
+    "cardPosition": { "top": "400vh", "left": "0" },
+    "heroVideo": "https://player.vimeo.com/video/785708899?h=21657481bc&badge=0&autopause=0&player_id=0&app_id=58479/embed",
+    "heroImage": "01.png",
+    "gallery": ["02.png", "03.jpg", "04.jpg"],
+    "info": {
+      "title": "Under the Water",
+      "subtitle": "Look Up! Is It the Sky or the Water?",
+      "type": "Interactive Installation",
+      "team": ["Tuan Huang"],
+      "company": null,
+      "time": "Winter 2022",
+      "location": "New York, U.S."
+    },
+    "content": [
+      {
+        "title": null,
+        "subtitle": null,
+        "paragraphs": [
+          "Under The Water is an interactive art installation, where participants will experience the feeling under a pond. It is a simple interaction that provides a pause moment and to connect the individual to a bigger water body and space. Once you come in to the space, you are encouraged to stir the water by your hands.",
+          "The audiences will walk into the space, lookup to ceiling and see a projection of water body. They will be hinted to raise their hands, reaching towards the ceiling. And the movements of their hands will trigger ripples of the water. A kinect will be detecting users' heights, while they are reaching their hands towards the ceiling. And their movements will be mapped to the visuals that are projected to the canvas that is hung from ceiling."
+        ],
+        "lists": null,
+        "diagram": null,
+        "photo": null,
+        "video": null
+      }
+    ]
+  },
+  {
+    "name": "bun_in_the_oven",
+    "cardPosition": { "top": "630vh", "right": "0" },
+    "heroVideo": "https://player.vimeo.com/video/828787255?h=c271681aca&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
+    "heroImage": "08.png",
+    "gallery": [
+      "01.png",
+      "02.jpg",
+      "03.png",
+      "04.jpg",
+      "05.jpg",
+      "06.jpg",
+      "07.jpg",
+      "08.png",
+      "09.png",
+      "10.png",
+      "11.jpg",
+      "12.jpg"
+    ],
+    "info": {
+      "title": "Bun in the Oven",
+      "subtitle": "The Dough of Life:  A Yeasty Metaphor for the Journey of Pregnancy",
+      "type": "Interactive Installation",
+      "team": null,
+      "company": null,
+      "time": "Spring 2023",
+      "location": "New York, U.S."
+    },
+    "content": [
+      {
+        "title": null,
+        "subtitle": null,
+        "paragraphs": [
+          "Bun in the Oven is a 10-15 minute interactive art project addressing the pressures and anxieties faced by women concerning fertility and pregnancy. Using a baking game as a metaphor for the various stages and challenges of pregnancy, participants engage in an accessible and thought-provoking experience that encourages reflection and conversation on the complex emotions surrounding fertility and childbearing.",
+          "The project is a personal exploration of the challenges and heartbreaks associated with pregnancy, drawing from the creator's experiences and those of loved ones. By sharing these intimate moments and stories, “Bun in the Oven” aims to create a supportive and empathetic space for those who have faced similar challenges, fostering a sense of connection and understanding."
+        ],
+        "lists": null,
+        "diagram": null,
+        "photo": null,
+        "video": null
+      },
+      {
+        "title": "Research",
+        "subtitle": null,
+        "paragraphs": [
+          "The project is informed by research exploring pregnancy milestones, the impact of age on pregnancy, and the emotional struggles faced by women during this phase of life. The pregnancy process typically lasts 38-40 weeks and is divided into three trimesters. Key milestones include heartbeat detection as early as week 6 and the fetus doubling in size by week 8. Screening tests, such as ultrasound and blood testing, can detect early signs of Down syndrome between weeks 10 and 14. Diagnostic tests like amniocentesis are conducted between weeks 15 and 20 to confirm any abnormalities. Gestational diabetes may develop after week 20, which can lead to high blood pressure, a larger baby, and potential complications like preeclampsia.",
+          "Age is a significant factor in pregnancy success. Women delivering their first baby after 35 are considered advanced maternal age or elderly primigravida. As women age, the quality of their eggs declines, and pregnancy risks increase. These risks include preeclampsia, gestational diabetes, premature birth, low birth weight, expecting twins, miscarriage, Down syndrome, and other genetic disorders, as well as the likelihood of cesarean section or stillbirth."
+        ],
+        "lists": null,
+        "diagram": "13.png",
+        "photo": null,
+        "video": null
+      },
+      {
+        "title": "Technical Details",
+        "subtitle": null,
+        "paragraphs": [
+          "The interactive installation is designed as a baking game, featuring a real toaster oven with the Pepper's ghost effect integrated inside. This, along with various game elements, guides participants through the process. The project is developed using Unity and an Arduino microcontroller, creating a comprehensive experience that reveals the metaphor behind the game. The visual theme combines the aesthetics of an operating room and an industrial kitchen, emphasizing the connection between the medical and baking aspects of the project."
+        ],
+        "lists": null,
+        "diagram": "14.png",
+        "photo": null,
+        "video": null
+      },
+      {
+        "title": "User Flow",
+        "subtitle": null,
+        "paragraphs": [
+          "In the interactive experience Bun in the Oven, participants are guided through various challenges and choices related to baking burger buns, which serve as a metaphor for pregnancy. The narrative parallels the stages of pregnancy and the struggles faced by women as they navigate fertility and childbearing.",
+          "Engaging with the experience, participants follow the recipe, making decisions that can sometimes be confusing, reflecting the uncertainty and complexities surrounding pregnancy. Throughout the experience, participants encounter challenges that mirror pregnancy-related concerns, such as the dough (baby) not rising (developing), taking unexpected shapes, or growing too large.",
+          "Participants must make choices on how to handle these situations, akin to the decisions expectant mothers face, such as trying again, continuing with the current attempt, or giving up. The mother character serves as a supportive guide, offering wisdom, humor, and life lessons that resonate with the pregnancy journey."
+        ],
+        "lists": null,
+        "diagram": null,
+        "photo": null,
+        "video": "https://player.vimeo.com/video/826412535?h=c23014a39b"
+      }
+    ]
+  },
+  {
+    "name": "voice_printer",
+    "cardPosition": { "top": "800vh", "left": "0" },
+    "heroVideo": "https://player.vimeo.com/video/830731581?h=951fb9980f",
+    "heroImage": "01.jpg",
+    "gallery": [
+      "01.jpg",
+      "02.jpg",
+      "03.jpg",
+      "04.jpg",
+      "05.jpg",
+      "06.jpg",
+      "07.jpg",
+      "08.jpg"
+    ],
+    "info": {
+      "title": "Voice Printer",
+      "subtitle": "Speak, sing, hum into the Voice Printer, and catch the moment.",
+      "type": "Interactive Installation",
+      "team": ["Jinny Kang"],
+      "company": null,
+      "time": "Winter 2022",
+      "location": "New York, U.S."
+    },
+    "content": [
+      {
+        "title": null,
+        "subtitle": null,
+        "paragraphs": [
+          "The Voice Printer is an interactive installation where user pitch is printed on a thermal printer. Based on the concept of receipts as proofs: i.e. proof of purchase, proof of gifts; Voice Printer aims to hold a record, a proof of the human voice. The installation reflects a sort of communal confessional, or a confession booth, where an encoding of your voice becomes an addition to the larger conglomerate that is the Voice Printer.",
+          "The Voice Printer uses the JS Meyda library’s chroma and energy data to detect pitch and power of sound projected into the microphone. Signals are then sent to Arduino to print out a grayscale of ASCII characters, ranging from the least dense, ‘ ‘ (space), to the most dense, ‘#’ to visualize pitch."
+        ],
+        "lists": null,
+        "diagram": null,
+        "photo": null,
+        "video": null
+      }
+    ]
+  },
+  {
+    "name": "finger_spray",
+    "cardPosition": { "top": "1030vh", "right": "0" },
+    "heroVideo": "https://player.vimeo.com/video/785930066?h=350d0c8141&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
+    "heroImage": "01.jpg",
+    "gallery": ["01.jpg", "03.jpg", "04.jpg"],
+    "info": {
+      "title": "Finger Spray",
+      "subtitle": "Digital Painting Tool for Art Therapy",
+      "type": "Interactive Installation",
+      "team": null,
+      "company": null,
+      "time": "Fall 2021",
+      "location": "New York, U.S."
+    },
+    "content": [
+      {
+        "title": null,
+        "subtitle": null,
+        "paragraphs": [
+          "Finger Spray is a painting tool based on an art therapy framework - Expressive Therapies Continuum (ETC). The ETC is a hierarchical, continuous model that classifies the interaction between humans and the creative medium by information processing. This project focuses on the Kinesthetics/Sensory and the Perceptual/ Affective levels of the ETC framework.",
+          "Participants will wear a special glove on their dominant hand to paint on the virtual canvas by clicking the thumb with the index finger. Inside the middle finger of the glove is a forcing sensor that controls the radius of the spray. The tighter the fist grasped, the smaller the spray range. A color palette and a color picker are in front of the canvas. People move the color picker to take the color for the spray.",
+          "Except for the canvas, an auto-generated report behind the scene will analyze the creative process by assessing the composition of the color, the proportion of the blank space on the canvas, the color choice by time, how long you have held tightly, and how tight, etc. Then, while participants finish their drawing and press the \"done\" button, The report will show on the screen."
+        ],
+        "lists": null,
+        "diagram": null,
+        "photo": null,
+        "video": null
+      },
+      {
+        "title": null,
+        "subtitle": null,
+        "paragraphs": null,
+        "lists": null,
+        "diagram": null,
+        "photo": null,
+        "video": null
+      }
+    ]
+  },
+  {
+    "name": "famwood_website",
+    "cardPosition": { "top": "1250vh", "left": "0" },
+    "heroVideo": null,
+    "heroImage": "01.png",
+    "gallery": ["06.jpg", "07.png", "08.png", "09.png", "10.png"],
+    "info": {
+      "title": "Famwood Website",
+      "subtitle": "Official Website Re-design",
+      "type": "Web Deisgn & Branding",
+      "team": null,
+      "company": "Famwood",
+      "time": "Spring 2021",
+      "location": "Taichung City, Taiwan"
+    },
+    "content": [
+      {
+        "title": null,
+        "subtitle": null,
+        "paragraphs": [
+          "This undertaking involves a thorough renovation of Famwood's official website. The company has recently undergone a transformation, shifting from its initial focus on furniture sales to emerging as a specialized authority in the construction of tiny houses, alongside its management of the OnOnNature restaurant. The rationale behind this website redesign stems from the imperative to consolidate the digital representation of Famwood's diverse business segments, which were formerly distributed across distinct websites. This initiative is directed towards cultivating a coherent and seamless user experience, thereby encompassing Famwood's entire spectrum of activities within a unified online framework."
+        ],
+        "lists": null,
+        "diagram": null,
+        "photo": null,
+        "video": null
+      },
+      {
+        "title": "Challenge",
+        "subtitle": null,
+        "paragraphs": [
+          "Prior to this redesign, Famwood grappled with maintaining two distinct websites, one dedicated to retail, and the other highlighting their restaurant. Furthermore, this transition period coincided with the phase-out of their furniture business – a challenge compounded by the company's existing reputation in that sector. The confusion among customers regarding the company's core identity and current focus was evident.",
+          "Delving into discussions with the business proprietor, the primary focal point emerges: the promotion and sale of tiny house products - Mobile Home, a new direction for Famwood. The restaurant, OnOnNature, is designed to be an initial touchpoint for the reservation process of guided tours for their tiny houses."
+        ],
+        "lists": null,
+        "diagram": null,
+        "photo": null,
+        "video": null
+      },
+      {
+        "title": "Objective",
+        "subtitle": null,
+        "paragraphs": [
+          "At the forefront of this redesign stands the compelling objective of augmenting the volume of reservations for guided tours of the tiny houses. An ancillary aspiration involves establishing absolute clarity concerning the interrelationships between Famwood's divergent businesses, ultimately crystallizing the company's inherent value proposition."
+        ],
+        "lists": null,
+        "diagram": null,
+        "photo": null,
+        "video": null
+      },
+      {
+        "title": "Branding",
+        "subtitle": null,
+        "paragraphs": [
+          "The redesign involved crafting brand guidelines, a vital task given Famwood's 40-year legacy. This history bolsters the tiny house product's value, symbolizing steadfastness akin to a foundation.",
+          "Typographically, Serif fonts lend a classic touch to titles, while Sans fonts accommodate content due to intricate Chinese characters, ensuring readability.",
+          "Regarding colors, Famwood's historic link is pivotal. Since 1984, red, linked to Famwood's Chinese Name meaning 'red house', has been emblematic. A deep Crimson shade was chosen, along with grayscale tones, enhancing the classic essence and design coherence."
+        ],
+        "lists": null,
+        "diagram": "02.svg",
+        "photo": null,
+        "video": null
+      },
+      {
+        "title": "User Flow",
+        "subtitle": null,
+        "paragraphs": [
+          "The website's architecture comprises three distinct layers. Beginning with the first layer, the home page, which serves as the initial landing point for visitors. This section prominently features two key links, directing users to explore the “Mobile Home” and “OnOnNature” sections, constituting the second layer of the architecture.",
+          "Within these subsections, the third layer is introduced through additional links. For instance, within the \"Mobile Home\" page, visitors are provided with avenues to access more detailed specifications or proceed to the tour reservation page, facilitated by a strategically placed 'call to action' button. Furthermore, a dedicated call to action button is consistently positioned in the bottom left corner of the page, ensuring easy access to the reservation page."
+        ],
+        "lists": null,
+        "diagram": "03.svg",
+        "photo": null,
+        "video": null
+      },
+      {
+        "title": null,
+        "subtitle": null,
+        "paragraphs": null,
+        "lists": null,
+        "diagram": "04.jpg",
+        "photo": null,
+        "video": null
+      },
+      {
+        "title": null,
+        "subtitle": null,
+        "paragraphs": null,
+        "lists": null,
+        "diagram": "05.jpg",
+        "photo": null,
+        "video": null
+      }
+    ]
+  },
+  {
+    "name": "hedonomic_yeshi",
+    "cardPosition": { "top": "1500vh", "left": "0" },
+    "heroVideo": null,
+    "heroImage": "01.png",
+    "gallery": null,
+    "info": {
+      "title": "Hedonomic Yeshi",
+      "subtitle": "An Immersive VR Night Market Game",
+      "type": "Game Design & Development",
+      "team": null,
+      "company": null,
+      "time": "Winter 2022",
+      "location": "New York, U.S."
+    },
+    "content": [
+      {
+        "title": null,
+        "subtitle": null,
+        "paragraphs": [
+          "Hedonomic Yeshi is an immersive VR game that draws inspiration from the vibrant Asian night market culture. Players are invited to explore and experience the lively nightlife of various locations around the world. The project adheres to the hedonomic VR design principles developed by Meta, focusing on creating a safe and joyful virtual environment for players to enjoy. By blending the excitement of night markets with the immersive capabilities of virtual reality, Hedonomic Yeshi offers a unique and engaging experience that transports players to the bustling and colorful atmosphere of these cultural hotspots."
+        ],
+        "lists": null,
+        "diagram": null,
+        "photo": null,
+        "video": "https://player.vimeo.com/video/838071093?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+      },
+      {
+        "title": "Hedonomic VR Design",
+        "subtitle": null,
+        "paragraphs": [
+          "This project embodies the Hedonomic VR design principles, crafted by the Meta Reality Lab. Rooted in the concept of hedonomics, a specialized branch of ergonomics, this approach is dedicated to elevating human-computer interactions by promoting delightful experiences. At the core of this design philosophy lies the Hedonic Pyramid, a five-stage framework (safety, functionality, usability, pleasure, and individuation) that sets the foundation for an extraordinary virtual reality journey."
+        ],
+        "lists": null,
+        "diagram": "02.svg",
+        "photo": null,
+        "video": null
+      },
+      {
+        "title": null,
+        "subtitle": "Safety",
+        "paragraphs": [
+          "The Hedonomic Yeshi project prioritizes user safety and comfort within the virtual realm. Virtual Reality can create an illusion of self-extinction, affecting how our brain perceives virtual threats as real threats. To establish a safe virtual space, several key measures are employed:"
+        ],
+        "lists": [
+          "Proxemics to Define Virtual Space",
+          "Establishing Behavior Expectations",
+          "User-defined Preferences",
+          "Clear Communication of Consent",
+          "Quick-action Remediation Tools"
+        ],
+        "diagram": null,
+        "photo": null,
+        "video": null
+      },
+      {
+        "title": null,
+        "subtitle": null,
+        "paragraphs": [
+          "Upon entering the Hedonomic Yeshi, players acknowledge the rules for a safe and respectful virtual environment. They can also adjust preferences and easily exit the game from the main menu, enhancing their sense of control and well-being."
+        ],
+        "lists": null,
+        "diagram": null,
+        "photo": "03.jpg",
+        "video": null
+      },
+      {
+        "title": null,
+        "subtitle": "Function",
+        "paragraphs": [
+          "The second stage, Function, focuses on seamlessly integrating all VR interactions and features to create an intuitive and responsive virtual environment. Empowering users to effortlessly navigate and engage with the digital world, the functional system allows them to achieve their desired goals, fostering a sense of trust in its stability, predictability, and safety.",
+          "In the VR world, achieving functionality means adhering to key principles:"
+        ],
+        "lists": [
+          "Adding Consistent Value",
+          "Informing Users of Behavioral Effects",
+          "Transparent Attention Requests",
+          "Full Personal Data Disclosure",
+          "Visibility into System Mechanisms"
+        ],
+        "diagram": null,
+        "photo": null,
+        "video": null
+      },
+      {
+        "title": null,
+        "subtitle": null,
+        "paragraphs": [
+          "To align with the project's focus on promoting Asian market culture, the interactions within the Hedonomic Yeshi game are designed to mimic real-world situations. Following real physics principles, all items and interactions are easy for players to understand and engage with, enhancing their sense of immersion and realism.",
+          "Moreover, the game offers users the convenience of tracking their time spent within the virtual realm through the menu. This feature allows players to be mindful of their engagement and enables them to manage their virtual experiences effectively."
+        ],
+        "lists": null,
+        "diagram": null,
+        "photo": "04.jpg",
+        "video": null
+      },
+      {
+        "title": null,
+        "subtitle": "Usabilty",
+        "paragraphs": [
+          "At the core of the Hedonic Pyramid lies the third stage, usability, which embraces empathetic and user-centric design. This pivotal stage is devoted to crafting an interface that is not only efficient but also mindful of users' needs, ensuring seamless interactions and an enjoyable journey within the virtual realm. The following key elements are incorporated to achieve a truly usable and delightful experience:"
+        ],
+        "lists": [
+          "Avoiding Unnatural Sensations",
+          "Comfortable Panel Placement",
+          "Easy-to-Execute Gestures",
+          "Accessible Inputs",
+          "Clear Feedback in Interactions"
+        ],
+        "diagram": "05.svg",
+        "photo": null,
+        "video": null
+      },
+      {
+        "title": null,
+        "subtitle": null,
+        "paragraphs": [
+          "The implementation of usability principles in the project is thoughtfully executed:"
+        ],
+        "lists": [
+          "Optimal UI Placement: The user interface elements are strategically positioned within the range of 0.5 to 3.5 meters, ensuring easy visibility and interaction.",
+          "Comfortable Menu Angle: The main menu is tilted 15 degrees to match the user's comfortable vision angle, enhancing the overall comfort and usability of the interface.",
+          "Customizable Teleport Options: Teleportation options are provided in the settings, allowing users to tailor their preferences for navigation and locomotion.",
+          "Stationary Game Navigation: Users have the flexibility to navigate the game as a stationary experience by using the vendor/map feature in the menu, enabling seamless transportation between locations."
+        ],
+        "diagram": null,
+        "photo": "06.jpg",
+        "video": null
+      },
+      {
+        "title": null,
+        "subtitle": "Pleasure",
+        "paragraphs": [
+          "The fourth stage, pleasure, is a captivating realm of sensory delight within the virtual environment. It enchants users with captivating visuals, immersive audio, and a harmonious blend of stimuli. By invoking positive emotions and fostering engagement, this stage amplifies the joy of exploration, making the virtual experience truly enchanting.",
+          "In VR, aesthetics are paramount, and they follow the principles of general graphic design with an additional focus on preventing cognitive load and eye strain. The following strategies are employed to achieve this:"
+        ],
+        "lists": [
+          "Using Multiple Small Panels and Avoiding One Huge Panel",
+          "Using Natural Colors and Avoiding White or Bright Colors",
+          "Device-Appropriate Typeface Sizes",
+          "Simplifying Communication by Semiotic Model"
+        ],
+        "diagram": null,
+        "photo": null,
+        "video": null
+      },
+      {
+        "title": null,
+        "subtitle": null,
+        "paragraphs": [
+          "In execution, these principles are thoughtfully integrated into the design:"
+        ],
+        "lists": [
+          "Separation of Main Menu and Player's Stats: The main menu and player's stats are separated to provide a clear and uncluttered interface, enhancing user engagement and focus.",
+          "Icons and Images Over Text: Visual clutter is avoided by using icons and images instead of text, streamlining the user experience and facilitating quick comprehension.",
+          "Appropriate Font Size: Fonts are set at least 20 mm per meter away, ensuring readability without causing eye strain during prolonged VR use.",
+          "Neon-Themed Design: A neon color theme and dark background are employed to create a vivid night atmosphere, immersing users in an enthralling visual experience."
+        ],
+        "diagram": null,
+        "photo": "07.jpg",
+        "video": null
+      },
+      {
+        "title": null,
+        "subtitle": "Individuation",
+        "paragraphs": [
+          "Finally, at the pinnacle of the Hedonic Pyramid, lies individuation, where personalized experiences take center stage. Tailoring the virtual journey to cater to each user's unique preferences, interests, and desires, this stage ensures that no two experiences are alike, forging a deep and lasting connection between the user and the virtual realm.",
+          "By providing users with the opportunity to link their meta avatar to the game, the Hedonic Yeshi project embraces individuality, fostering a truly immersive and meaningful experience for each user."
+        ],
+        "lists": null,
+        "diagram": null,
+        "photo": null,
+        "video": null
+      },
+      {
+        "title": "User Flow",
+        "subtitle": null,
+        "paragraphs": null,
+        "lists": null,
+        "diagram": "08.svg",
+        "photo": null,
+        "video": null
+      },
+      {
+        "title": "Credits",
+        "subtitle": null,
+        "paragraphs": null,
+        "lists": [
+          "Meta Reality Labs",
+          "Michelle Cortese",
+          "Hancock, Peter & Pepe, Aaron & Murphy, Lauren. (2005). Hedonomics: The Power of Positive and Pleasurable Ergonomics. Ergonomics in Design: The Quarterly of Human Factors Applications. 13. 8-14. 10.1177/106480460501300104. "
+        ],
+        "diagram": null,
+        "photo": null,
+        "video": null
+      }
+    ]
+  },
+  {
+    "name": "invisible_worlds",
+    "cardPosition": { "top": "1800vh", "right": "0" },
+    "heroVideo": null,
+    "heroImage": "01.png",
+    "gallery": ["02.png", "03.png", "04.png", "05.png"],
+    "info": {
+      "title": "Invisible Worlds",
+      "subtitle": "The Waiting Area of the Invisible Worlds Exhibition at AMNH",
+      "type": "VFX & Projection Mapping",
+      "team": null,
+      "company": "American Museum of Natural History",
+      "time": "Spring 2023",
+      "location": "New York, U.S."
+    },
+    "content": [
+      {
+        "title": null,
+        "subtitle": null,
+        "paragraphs": [
+          "The Invisible Worlds project takes place within the esteemed American Museum of Natural History, located in bustling New York City. This visionary endeavor provides a platform for visitors to embark on an immersive journey. Before experiencing this extraordinary adventure, guests are invited to explore the profound themes that connect life on Earth across vast distances, diverse species, and billions of years.",
+          "In this captivating space, my role centers around crafting mesmerizing particle systems. These creations enhance the immersive projections and interactive kiosks, captivating and engaging visitors in thought-provoking experiences. I also contribute to the interactive medium through projection mapping implementation."
+        ],
+        "lists": null,
+        "diagram": null,
+        "photo": null,
+        "video": null
+      },
+      {
+        "title": "Colors",
+        "subtitle": null,
+        "paragraphs": [
+          "The pre-show gallery is divided into four distinctive sections – DNA, Ecosystem, Food Web, and Communications. These segments are thoughtfully curated, employing distinct color palettes to evoke specific emotions. For instance, the DNA section uses teals and purples, symbolizing genetic mysteries. Similarly, the ecosystem utilizes various shades of green to represent natural harmony."
+        ],
+        "lists": null,
+        "diagram": "06.svg",
+        "photo": null,
+        "video": null
+      },
+      {
+        "title": "Particle System",
+        "subtitle": null,
+        "paragraphs": [
+          "Upon entering, visitors are immersed in a captivating interplay of lights and colors, drawn to ribbon-shaped projection canvases within each section. These canvases utilize projection mapping technology, creating dynamic backdrops that bring visual narratives to life. Accompanying each canvas are interactive kiosks, offering touch-screen interfaces that facilitate deeper exploration."
+        ],
+        "lists": null,
+        "diagram": "07.jpg",
+        "photo": null,
+        "video": null
+      },
+      {
+        "title": "Credits",
+        "subtitle": null,
+        "paragraphs": null,
+        "lists": [
+          "American Museum of Natural History",
+          "AMNH Interactive Media Team",
+          "Hayeon Hwang"
+        ],
+        "diagram": null,
+        "photo": null,
+        "video": null
+      }
+    ]
+  },
+  {
+    "name": "zooba_battle",
+    "cardPosition": { "top": "2000vh", "left": "0" },
+    "heroVideo": "https://player.vimeo.com/video/785930738?h=95b311e0ef&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
+    "heroImage": "02.png",
+    "gallery": ["02.png", "03.jpg", "04.jpg"],
+    "info": {
+      "title": "Zooba Battle",
+      "subtitle": "Playful Communication for Serious Research",
+      "type": "Interactive Installation",
+      "team": ["Jinny Kang", "Qiongting Zhang", "Stephanie Chen"],
+      "company": null,
+      "time": "Spring 2022",
+      "location": "New York, U.S."
+    },
+    "content": [
+      {
+        "title": null,
+        "subtitle": null,
+        "paragraphs": [
+          "Zooba Battle is a competitive and educational 2 player rhythm game that is based on studies and hypotheses of the link between vocal learning and vocal entrainment (dance) in various species.",
+          "You are given a selection of animals to choose from based on 6 categories: speed, vocal, power, auditory, beauty, and vision—with the prompt: “be the next dance champion”. Each animal will activate its own unique game pattern and all animals are ranked based on quantitative datasets from 0 to 5, with 5 being best, and 0 being worst.",
+          "The game includes 2 distinct stages within a song: Stage 1, both players are given the same rhythm game (beats) that are created to match the rhythm of the song perfectly. Stage 2, based on which animal a player chose, beats are presented based on how animals would dance to a rhythm. By playing the rhythm game as if being the animal, players can sense and experience how the selected animal perceives and reacts to rhythm and beats."
+        ],
+        "lists": null,
+        "diagram": null,
+        "photo": null,
+        "video": null
+      }
+    ]
+  },
+  {
+    "name": "all_colors_are_in_the_lights",
+    "cardPosition": { "top": "2290vh", "left": "0" },
+    "heroVideo": "https://player.vimeo.com/video/490556457?h=e42d76f2da&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
+    "heroImage": "10.jpg",
+    "gallery": [
+      "10.jpg",
+      "01.jpg",
+      "02.jpg",
+      "03.jpg",
+      "04.jpg",
+      "05.jpg",
+      "06.jpg",
+      "07.jpg",
+      "08.jpg"
+    ],
+    "info": {
+      "title": "All Colors are in the Lights",
+      "subtitle": "National Taichung Theater: IMAGE Theater",
+      "type": "Projection Mapping",
+      "team": ["Tien Ling", "Ling Lee"],
+      "company": null,
+      "time": "Fall 2019",
+      "location": "Taichung City, Taiwan"
+    },
+    "content": [
+      {
+        "title": null,
+        "subtitle": null,
+        "paragraphs": [
+          "Urban images have been prevailing and even ubiquitous these days. We see representations of cities in digital maps, movies or games, and we often participate in creating urban imageries by posting traveling logs in social media, uploading panorama shots or creating computer game MUDs based on real life locations. However, in terms of actual interaction instead of visual or virtual participation, it is much more difficult to create public engagement in any built urban environment. The more designers and architects put effort into applying complicated algorithms and mechanisms to interactive items, the more it shows that the majority of our surroundings, by its default status, do not interact with people at all.",
+          "All Colors Are In The Lights (ACAITL) is an installation that animates the environment via arrangements of images and projections. Without complicated sensing techniques or movable mechanisms, an intuitive light and shadow show with everyday street view images creates an instantly relatable urban experience to the audience. A playful and responsive engagement between an enclosed interior and an open urban spatial environment is presented in a way that invites maximum public participation, whether to interact with the imagery, the projections, or the interior space, individually as well as collectively."
+        ],
+        "lists": null,
+        "diagram": null,
+        "photo": null,
+        "video": null
+      },
+      {
+        "title": "(Color) Coding the Environment",
+        "subtitle": null,
+        "paragraphs": [
+          "In the seminal book “Image of the City”, Lynch argues that the understanding of cities are formed by our perceptions. From a cognitive psychological point of view, the “imaging” of cities is a form of cognitive mapping: Because of the limitation of cognitive capacity, our brains naturally filter secondary information or background noises to cope with overwhelming information. The imagery in ACAITL represents the selective mechanism in terms of perceiving and conceiving urban spatial information through a three- step procedure— “Documentation”, “Coding”, and “Projection”."
+        ],
+        "lists": null,
+        "diagram": null,
+        "photo": null,
+        "video": null
+      },
+      {
+        "title": null,
+        "subtitle": "Documenting",
+        "paragraphs": [
+          "In this phase, we photograph the city with a 360-degree video camera to get comprehensive panoramic shots while moving along boulevard. The images sampled from the video serves as the foundation to reconstruct the urban experience."
+        ],
+        "lists": null,
+        "diagram": null,
+        "photo": null,
+        "video": null
+      },
+      {
+        "title": null,
+        "subtitle": "Coding",
+        "paragraphs": [
+          "Photographic representations of the city are reproduced into a series of color-coded images. Environmental objects are categorized, grouped and layered before colorized in a four- color printing manner, except for that we are painting here with color lights, taking advantage of a RGB color model for its additive nature. A rather complicated coding pattern is established to carefully assign contrasting colors to different groups of visual elements, in order to create overlapping addition of lights. A car would be projected in red and yellow from one projector, as well as cyan and blue from another. If one is to move in front of the two projectors, the car would be seen as white first (no shadow), and then either red or blue (alternative shadows), depending on the relative locations of the viewer blocking the lights."
+        ],
+        "lists": null,
+        "diagram": "12.png",
+        "photo": null,
+        "video": null
+      },
+      {
+        "title": null,
+        "subtitle": "Projecting",
+        "paragraphs": [
+          "In the final presentation, multiple projectors are arranged to overlay the color-coded images together to reconstruct the original view of the city. We use the additive model to sum up the primary and secondary colors into white, creating light grey silhouettes that vaguely hints at an urban landscape underneath. This layered visuals await for involvement from participants. When one step in front of one of the projections, the shadow of the person, instead of appearing black for lack of light, unexpectedly reveals the highly contrasted shapes of saturated colors coming from the directions of other projectors. In a sense, this is a “decoding” process, highlighting some of the layers of urban information by blocking the light that “conceals” the colors. Every time someone interacts with the projections by intuitively playing with the shadows, the representation of the city also transforms. Each action, and the visual reaction, is unique."
+        ],
+        "lists": null,
+        "diagram": null,
+        "photo": "09.jpg",
+        "video": null
+      },
+      {
+        "title": "The Sound",
+        "subtitle": null,
+        "paragraphs": [
+          "ACAITL applies ambisonic technology to create an audio environment that also contributes to the immersive spatial experience. While the visual images work as stop-frame slideshow animation (each frame lasting 4 seconds), the audio is played back in real time, creating an instantly recognizable urban backbeat. It brings a dynamic sensation of spatiality and excitement, as if witnessing a head-on vehicle passing through from the front to the rear. Urban ambient sounds are recorded using an all-directional microphone, and then mixed with electronic beats and noises. Recognizable patterns and site-specific sounds are carefully mixed to juxtapose with the visuals of city landmarks. The final audio work is played through six channels to create a surrounding audio environment to enhance the movement of the visual as well as the flowingnsensation in the space."
+        ],
+        "lists": null,
+        "diagram": null,
+        "photo": null,
+        "video": null
+      }
+    ]
+  },
+  {
+    "name": "tree_shadow_lamp",
+    "cardPosition": { "top": "2500vh", "right": "0" },
+    "heroVideo": "https://player.vimeo.com/video/785711175?h=06fc946c4c&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
+    "heroImage": "01.jpg",
+    "gallery": ["01.jpg", "02.jpg"],
+    "info": {
+      "title": "Tree Shadow Lamp",
+      "subtitle": "Meditation Roly-poly Lamp",
+      "type": "Interactive Installation",
+      "team": null,
+      "company": null,
+      "time": "Spring 2022",
+      "location": "New York, U.S."
+    },
+    "content": [
+      {
+        "title": null,
+        "subtitle": null,
+        "paragraphs": [
+          "Tree Shadow Lamp is a roly-poly table lamp for meditation. It is inspired by the soothing nature of tree shadows. The lamp connects with a p5 sketch projected in the space. When people gently sway the lamp, the internal accelerometer will generate data for the p5 sketch to trigger the animation and sound.",
+          "There are three LED bulbs in the lamp. Each bulb connects to the Arduino 33 IoT build-in gyroscope’s X, Y, and Z values, respectively. The three shadow videos and the sound of leaves rustling in the P5 sketch are also linked to the gyroscope data; when the gyroscope detects axial motion, the opacity of the videos and the volume of sound increase. Likewise, while the movement stops, the opacity and volume decline."
+        ],
+        "lists": null,
+        "diagram": null,
+        "photo": null,
+        "video": null
+      }
+    ]
+  },
+  {
+    "name": "salt_deconstructing_stool",
+    "cardPosition": { "top": "2900vh", "right": "0" },
+    "heroVideo": null,
+    "heroImage": "01.jpg",
+    "gallery": ["02.jpg", "03.jpg", "04.jpg", "05.jpg", "06.jpg"],
+    "info": {
+      "title": "Salt-deconstructing Stool",
+      "subtitle": "Illuminating Winter Deicing Issues through Outdoor Lighting Furniture",
+      "type": "Product Design",
+      "team": ["Yan Shao"],
+      "company": null,
+      "time": "Spring 2023",
+      "location": "New York, U.S."
+    },
+    "content": [
+      {
+        "title": null,
+        "subtitle": null,
+        "paragraphs": [
+          "New York City, a bustling metropolis nestled in the northern region of the United States, is known for its chilly winters and frequent snowfall. When the snow covers the city, snow-melt salt is indispensable for winter life and keeps the streets and sidewalks available. However, the amount of salt used for deicing roads and highways is often overused, which causes damage to roads and other infrastructure that need to be repaired annually. Additionally, the massive amount of salt often infiltrates the surrounding soil and water systems, causing severe environmental issues and compromising the natural resources in the city.",
+          "The idea comes from the need to reduce the overuse of snow-melt salt in New York City during the winter months or use alternative organic salt. The project is a concrete stool with a light underneath that illuminates through road salt. The stool is made of 50 lbs of high-strength concrete mix and plywood for the mold. The road salt is filled with the fissures of concrete. The light design functions to illuminate the surrounding of the stool, and the refraction from salt will create a unique and visually appealing effect. This stool will serve as a reflection of the exaggerated usage of road salt during the winter months and the need to be mindful of environmental impact."
+        ],
+        "lists": null,
+        "diagram": null,
+        "photo": null,
+        "video": null
+      }
+    ]
+  },
+  {
+    "name": "handheld_fireplace",
+    "cardPosition": { "top": "3100vh", "left": "0" },
+    "heroVideo": "https://player.vimeo.com/video/829584697?h=7b5baece7a&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
+    "heroImage": "01.jpg",
+    "gallery": ["02.jpg", "03.jpg", "04.jpg", "05.jpg", "06.jpg"],
+    "info": {
+      "title": "Handheld Fireplace",
+      "subtitle": "Fireside Glow: Portable Table Lamp Evoking Warmth and Comfort",
+      "type": "Product Design",
+      "team": null,
+      "company": null,
+      "time": "Spring 2023",
+      "location": "New York, U.S."
+    },
+    "content": [
+      {
+        "title": null,
+        "subtitle": null,
+        "paragraphs": [
+          "Handheld Fireplace is a table lamp inspired by the comforting memories of my childhood, specifically, the charming warmth of a charcoal fire during winter. I remember my parents placing a charcoal stove in our home, and I was particularly drawn to the subtle, warm red light that glowed beneath the black charcoal.",
+          "I chose wood and epoxy resin as the main materials for the Handheld Fireplace. Tucked away inside the wooden shade, seven RGB LEDs work under the control of an Arduino microcontroller. Their purpose is to mimic the gentle, unpredictable flicker of candlelight, bringing an authentic and mesmerizing element to the lamp."
+        ],
+        "lists": null,
+        "diagram": null,
+        "photo": null,
+        "video": null
+      }
+    ]
+  },
+  {
+    "name": "knit_night_knight_lamp",
+    "cardPosition": { "top": "3300vh", "right": "0" },
+    "heroVideo": "https://player.vimeo.com/video/829279467?h=e27b8faa39&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
+    "heroImage": "03.jpg",
+    "gallery": ["01.jpg", "02.jpg", "03.jpg", "04.jpg"],
+    "info": {
+      "title": "Knit, Night, Knight Lamp",
+      "subtitle": "An Eye-Safeguarding Bedside Companion with Philips Hue Integration",
+      "type": "Product Design",
+      "team": ["Shuang Cai"],
+      "company": null,
+      "time": "Spring 2023",
+      "location": "New York, U.S."
+    },
+    "content": [
+      {
+        "title": null,
+        "subtitle": null,
+        "paragraphs": [
+          "Knit, Night, Knight Lamp is a meticulously crafted bedside lamp that offers more than just a gentle and soothing glow—it also prioritizes the health of the user's eyes. Included with the lamp is a specially designed phone case that senses whether the phone screen is active. When it detects that the phone is in use, a subtle signal is wirelessly transmitted via the Philips Hue system to the lamp, prompting it to gracefully illuminate the space with a soft and warm light.",
+          "One of the standout features of the Knit, Night, Knight Lamp is its distinctive lamp shade, expertly crafted from soft and cozy knit wool. This unique material not only adds a touch of warmth and elegance to any bedroom but also contributes to a soft diffusion of light, creating a gentle and soothing atmosphere that is easy on the eyes. The interplay between the knit wool and the illumination emitted by the lamp produces a visually captivating effect, enhancing the overall aesthetics of the space."
+        ],
+        "lists": null,
+        "diagram": null,
+        "photo": null,
+        "video": null
+      }
+    ]
+  }
+]

@@ -1,0 +1,21 @@
+.paper-item__container {
+  margin-bottom: 50px;
+}
+
+.paper-item__title {
+  font-weight: 500;
+  margin-bottom: 18px;
+}
+.paper-item__para {
+  font-weight: 300;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+}
+
+.paper-item__btn {
+  padding: 0;
+  font-size: 1em;
+  font-weight: 400;
+}

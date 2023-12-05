@@ -1,0 +1,17 @@
+.about {
+  z-index: 1000;
+  overflow-y: scroll;
+  display: flex;
+  gap: 50px;
+}
+.about__header {
+  flex: 2;
+}
+
+.about__container {
+  flex: 3;
+}
+
+.about__section {
+  margin-bottom: 50px;
+}

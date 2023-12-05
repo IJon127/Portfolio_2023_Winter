@@ -1,0 +1,28 @@
+.project-gallery {
+  width: 100%;
+}
+
+.project-gallery__img {
+  width: 100%;
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  .project-gallery__img {
+    max-width: 68vw;
+    max-height: 68vw;
+  }
+}
+
+@media only screen and (min-width: 427px) and (max-width: 768px) {
+  .project-gallery__img {
+    max-width: 75vw;
+    max-height: 75vw;
+  }
+}
+
+@media only screen and (max-width: 426px) {
+  .project-gallery__img {
+    max-width: 86vw;
+    max-height: 86vw;
+  }
+}

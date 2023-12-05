@@ -1,0 +1,7 @@
+.contact-card {
+  padding: 2vw 8vw;
+}
+.contact-card__container {
+  background: rgba(100, 100, 100, 0.5);
+  padding: 100px 50px 50px 50px;
+}

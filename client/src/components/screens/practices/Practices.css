@@ -1,0 +1,23 @@
+.practices {
+  /* overflow: hidden; */
+  margin-top: 50px;
+  width: 100%;
+}
+
+.practices__header {
+  display: flex;
+  margin-bottom: 50px;
+}
+
+.practices__header h1 {
+  flex: 2;
+}
+.practices__header p {
+  flex: 3;
+}
+
+.practices__container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 50px 15px;
+}

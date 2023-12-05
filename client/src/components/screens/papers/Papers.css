@@ -1,0 +1,17 @@
+.papers {
+  z-index: 1000;
+  overflow-y: scroll;
+  display: flex;
+  gap: 65px;
+}
+.papers__header {
+  flex: 2;
+}
+
+.papers__container {
+  flex: 3;
+}
+
+.papers__section {
+  margin-bottom: 50px;
+}
