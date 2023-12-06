@@ -1,7 +1,5 @@
-import { useState, useEffect, Suspense } from "react";
+import { useState, useEffect } from "react";
 import { Canvas } from "@react-three/fiber";
-import { Loader, useProgress } from "@react-three/drei";
-// import { motion, AnimatePresence } from "framer-motion";
 import Experience from "./Experience.jsx";
 import StartingScreen from "./components/screens/StartingScreen";
 import MoreScreen from "./components/screens/MoreScreen.jsx";
