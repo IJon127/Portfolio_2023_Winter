@@ -1,5 +1,4 @@
 import { useState, useEffect, Suspense } from "react";
-import { useFrame } from "@react-three/fiber";
 import { OrbitControls, ScrollControls, Scroll } from "@react-three/drei";
 import { Perf } from "r3f-perf";
 import World from "./components/world/World";
@@ -37,11 +36,13 @@ export default function Experience({
             />
           )}
         </Scroll>
-        <World
-          start={start}
-          activeAction={activeAction}
-          setActiveAction={setActiveAction}
-        />
+        <Suspense>
+          <World
+            start={start}
+            activeAction={activeAction}
+            setActiveAction={setActiveAction}
+          />
+        </Suspense>
       </ScrollControls>
     </>
   );

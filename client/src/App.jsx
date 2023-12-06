@@ -66,17 +66,15 @@ export default function App() {
     <>
       {!aboutFetching && <Header setModal={setModal} about={about} />}
       <Canvas>
-        <Suspense>
-          <Experience
-            start={start}
-            setModal={setModal}
-            projects={projects}
-            practices={practices}
-            papers={papers}
-            about={about}
-            fetching={fetching}
-          />
-        </Suspense>
+        <Experience
+          start={start}
+          setModal={setModal}
+          projects={projects}
+          practices={practices}
+          papers={papers}
+          about={about}
+          fetching={fetching}
+        />
       </Canvas>
       {!fetching && !start && <StartingScreen setStart={setStart} />}
       {modalOpened && (
@@ -87,7 +85,7 @@ export default function App() {
         />
       )}
       <LoadingScreen dataLoading={fetching} />
-      <Loader containerStyles={{ backgroundColor: "#333333" }} />
+      {/* <Loader containerStyles={{ backgroundColor: "#333333" }} /> */}
     </>
   );
 }
