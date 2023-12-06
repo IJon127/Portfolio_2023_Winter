@@ -33,3 +33,6 @@ resume.pdf
 
 # model
 world.glb
+
+# build folder
+/dist
