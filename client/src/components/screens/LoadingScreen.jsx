@@ -35,7 +35,7 @@ export default function LoadingScreen({ dataLoading }) {
                   repeat: Infinity,
                 }}
               >
-                Preparing...
+                LOADING...
               </motion.p>
             </motion.div>
           )}
