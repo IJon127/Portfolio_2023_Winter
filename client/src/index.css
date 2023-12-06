@@ -87,7 +87,6 @@ h2 {
   ::-webkit-scrollbar {
     width: 12px;
   }
-  /* Handle */
   ::-webkit-scrollbar-thumb {
     border-right: 8px solid transparent;
   }
@@ -97,8 +96,10 @@ h2 {
   ::-webkit-scrollbar {
     width: 7px;
   }
-  /* Handle */
   ::-webkit-scrollbar-thumb {
     border-right: 4px solid transparent;
   }
+  /* h3 {
+    font-size: 1.1em;
+  } */
 }

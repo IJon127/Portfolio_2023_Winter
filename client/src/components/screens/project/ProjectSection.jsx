@@ -38,13 +38,6 @@ export default function ProjectSection({ projectName, section }) {
           alt={projectName}
         />
       )}
-      {section.photo && (
-        <img
-          className="project-section__photo"
-          src={`/images/projects/${projectName}/${section.photo}`}
-          alt={projectName}
-        />
-      )}
     </div>
   );
 }

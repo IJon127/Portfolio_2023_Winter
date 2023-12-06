@@ -11,7 +11,6 @@ export default function ProjectInfo({ info }) {
         <p>{info.type}</p>
         <p>{info.time}</p>
         {info.location && <p>{info.location}</p>}
-        {/* {info.venue && <p>{info.venue}</p>} */}
       </div>
     </div>
   );

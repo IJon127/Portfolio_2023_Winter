@@ -35,7 +35,7 @@ export default function App() {
   };
 
   const fetchData = async (topic, setData, setDataLoading) => {
-    fetch(`http://localhost:5500/api/${topic}`)
+    fetch(`http://localhost:5300/api/${topic}`)
       // fetch(`/api/${topic}`)
       .then((res) => res.json())
       .then((resData) => {

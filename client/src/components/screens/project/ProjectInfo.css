@@ -10,7 +10,6 @@
   text-align: center;
   font-weight: 400;
   font-style: italic;
-  /* line-height: 150%; */
 }
 .project-info__content {
   display: flex;
@@ -18,8 +17,22 @@
   align-items: center;
 }
 .project-info__content p {
-  /* font-style: italic; */
+  text-align: center;
+  font-size: 0.9em;
+  font-style: italic;
   line-height: 100%;
   margin: 3px;
   font-weight: 100;
+}
+
+@media only screen and (max-width: 426px) {
+  .project-info__content p {
+    font-size: 0.8em;
+  }
+  .project-info__title {
+    font-size: 1.7em;
+  }
+  .project-info__subtitle {
+    font-size: 1em;
+  }
 }

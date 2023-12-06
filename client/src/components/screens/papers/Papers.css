@@ -15,3 +15,9 @@
 .papers__section {
   margin-bottom: 50px;
 }
+
+@media only screen and (max-width: 768px) {
+  .papers {
+    flex-direction: column;
+  }
+}

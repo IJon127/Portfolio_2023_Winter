@@ -1,5 +1,5 @@
 .project-section {
-  margin-top: 20px;
+  margin-bottom: 50px;
 }
 .project-section__title-subtitle {
   margin-bottom: 20px;
@@ -8,28 +8,25 @@
 
 .project-section__ul {
   display: table;
-  margin-left: 1em;
 }
 
 .project-section__video {
   width: 99%;
   aspect-ratio: 16/9;
-  /* box-shadow: 2px 0px 15px rgba(0, 0, 0, 0.4); */
-  margin-top: 40px;
+  margin-top: 35px;
 }
 .project-section__diagram {
   width: 100%;
   object-fit: contain;
-  margin-top: 40px;
-}
-.project-section__photo {
-  width: 100%;
-  object-fit: contain;
-  margin-top: 40px;
+  margin-top: 35px;
 }
 
-@media only screen and (max-width: 1000px) {
-  .project-section__photo {
-    border-width: 1.2vw;
+@media only screen and (max-width: 426px) {
+  .project-section__video {
+    margin-top: 20px;
+  }
+
+  .project-section__diagram {
+    margin-top: 20px;
   }
 }
