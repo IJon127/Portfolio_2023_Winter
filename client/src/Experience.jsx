@@ -12,6 +12,7 @@ export default function Experience({
   practices,
   papers,
   about,
+  fetching,
 }) {
   const [activeAction, setActiveAction] = useState("");
   useEffect(() => {
@@ -24,7 +25,7 @@ export default function Experience({
       {/* <OrbitControls makeDefault /> */}
       <ScrollControls pages={56} distance={1.5}>
         <Scroll html style={{ width: "100%" }}>
-          {activeAction != "restart" && (
+          {!fetching && activeAction != "restart" && (
             <Cards
               setModal={setModal}
               activeAction={activeAction}

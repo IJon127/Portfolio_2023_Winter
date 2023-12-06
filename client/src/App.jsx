@@ -16,12 +16,12 @@ export default function App() {
   const [projects, setProjects] = useState([]);
   const [practices, setPractices] = useState([]);
   const [papers, setPapers] = useState([]);
-  //Data loading
-  const [loading, setLoading] = useState(true);
-  const [aboutLoading, setAboutLoading] = useState(true);
-  const [projectsLoading, setProjectsLoading] = useState(true);
-  const [practicesLoading, setPracticesLoading] = useState(true);
-  const [papersLoading, setPapersLoading] = useState(true);
+  //Data fetching
+  const [fetching, setFetching] = useState(true);
+  const [aboutFetching, setAboutFetching] = useState(true);
+  const [projectsFetching, setProjectsFetching] = useState(true);
+  const [practicesFetching, setPracticesFetching] = useState(true);
+  const [papersFetching, setPapersFetching] = useState(true);
 
   //Modal
   const [modalOpened, setModalOpened] = useState(false);
@@ -34,37 +34,37 @@ export default function App() {
     type: setModalType,
   };
 
-  const fetchData = async (topic, setData, setDataLoading) => {
+  const fetchData = async (topic, setData, setDataFetching) => {
     fetch(`http://localhost:5300/api/${topic}`)
       // fetch(`/api/${topic}`)
       .then((res) => res.json())
       .then((resData) => {
         setData(resData.data[topic]);
-        setDataLoading(false);
+        setDataFetching(false);
       });
   };
 
   useEffect(() => {
-    fetchData("about", setAbout, setAboutLoading);
-    fetchData("projects", setProjects, setProjectsLoading);
-    fetchData("practices", setPractices, setPracticesLoading);
-    fetchData("papers", setPapers, setPapersLoading);
+    fetchData("about", setAbout, setAboutFetching);
+    fetchData("projects", setProjects, setProjectsFetching);
+    fetchData("practices", setPractices, setPracticesFetching);
+    fetchData("papers", setPapers, setPapersFetching);
   }, []);
 
   useEffect(() => {
     if (
-      !aboutLoading &&
-      !projectsLoading &&
-      !practicesLoading &&
-      !papersLoading
+      !aboutFetching &&
+      !projectsFetching &&
+      !practicesFetching &&
+      !papersFetching
     ) {
-      setLoading(false);
+      setFetching(false);
     }
-  }, [aboutLoading, projectsLoading, practicesLoading, papersLoading]);
+  }, [aboutFetching, projectsFetching, practicesFetching, papersFetching]);
 
   return (
     <>
-      {!aboutLoading && <Header setModal={setModal} about={about} />}
+      {!aboutFetching && <Header setModal={setModal} about={about} />}
       <Canvas>
         <Suspense>
           <Experience
@@ -74,10 +74,11 @@ export default function App() {
             practices={practices}
             papers={papers}
             about={about}
+            fetching={fetching}
           />
         </Suspense>
       </Canvas>
-      {!loading && !start && <StartingScreen setStart={setStart} />}
+      {!fetching && !start && <StartingScreen setStart={setStart} />}
       {modalOpened && (
         <MoreScreen
           content={modalContent}
@@ -85,7 +86,7 @@ export default function App() {
           setModalOpened={setModalOpened}
         />
       )}
-      <LoadingScreen dataLoading={loading} />
+      <LoadingScreen dataLoading={fetching} />
       <Loader containerStyles={{ backgroundColor: "#333333" }} />
     </>
   );
