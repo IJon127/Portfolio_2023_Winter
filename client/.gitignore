@@ -30,3 +30,6 @@ yarn-error.log*
 /public/papers
 # resume
 resume.pdf
+
+# model
+world.glb
