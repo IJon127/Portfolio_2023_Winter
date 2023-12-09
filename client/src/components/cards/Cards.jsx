@@ -38,7 +38,7 @@ export default function Cards({
         />
       ))}
       <Card
-        cardPosition={{ top: "4600dvh", left: "0" }}
+        cardPosition={{ top: "4500dvh", left: "0" }}
         title={"Research Papers"}
         intro={papers.intro}
         content={papers}
@@ -46,17 +46,17 @@ export default function Cards({
         setModal={setModal}
       />
       <Card
-        cardPosition={{ top: "4850dvh", right: "0" }}
+        cardPosition={{ top: "4750dvh", right: "0" }}
         title={"About Me"}
         intro={about.intro}
         content={about}
         type={"about"}
         setModal={setModal}
       />
-      <ContactCard position={{ top: "5040svh", left: "0" }} />
+      <ContactCard position={{ top: "4940svh", left: "0" }} />
 
       <EndingCard
-        position={{ top: "5550dvh", left: "50vw" }}
+        position={{ top: "5450dvh", left: "50vw" }}
         setActiveAction={setActiveAction}
       />
     </>

@@ -20,3 +20,15 @@
 .loading-screen__text {
   font-weight: 100;
 }
+
+.loading-screen__progress-track {
+  width: 100px;
+  height: 4px;
+  background-color: #555;
+  padding: 0;
+}
+
+.loading-screen__progress-inner {
+  height: 4px;
+  background-color: #ccc;
+}

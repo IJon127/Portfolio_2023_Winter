@@ -22,7 +22,7 @@ export default function Experience({
     <>
       {/* <Perf position="top-left" /> */}
       {/* <OrbitControls makeDefault /> */}
-      <ScrollControls pages={56} distance={1.5}>
+      <ScrollControls pages={55} distance={1.5}>
         <Scroll html style={{ width: "100%" }}>
           {!fetching && activeAction != "restart" && (
             <Cards

@@ -12,7 +12,14 @@
 
 .card__title {
   margin-bottom: 40px;
-  font-weight: 300;
+  font-family: "Libre Baskerville", serif;
+  font-weight: 400;
+}
+
+.card__line {
+  width: 20px;
+  height: 1px;
+  border: #eee solid 1px;
 }
 
 .card__para {
@@ -24,7 +31,7 @@
 }
 
 .card__btn {
-  font-weight: 100;
+  font-weight: 400;
   font-size: 18px;
   border: none;
   align-self: flex-end;

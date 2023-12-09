@@ -37,9 +37,8 @@ export default function Card({
     >
       <div className="card__container">
         <h2 className="card__title">{title}</h2>
-        {/* {intro.map((para, index) => ( */}
+        <div className="card__line" />
         <p className="card__para">{introParas}</p>
-        {/* ))} */}
         <button className="card__btn" onClick={() => clickMore()}>
           More ↗
         </button>

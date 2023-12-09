@@ -1,14 +1,15 @@
 import { useProgress } from "@react-three/drei";
 import { motion, AnimatePresence } from "framer-motion";
 import "./LoadingScreen.css";
-// import { useEffect } from "react";
+import { useEffect, useState } from "react";
 
 export default function LoadingScreen({ dataLoading }) {
   const { loaded } = useProgress();
-  // const pro = useProgress();
-  // useEffect(() => {
-  //   console.log(pro);
-  // }, [pro]);
+  const [loadedPercent, setLoadedPercent] = useState("0px");
+  const pro = useProgress();
+  useEffect(() => {
+    setLoadedPercent(`${(loaded / 46) * 100}px`);
+  }, [loaded]);
   return (
     <AnimatePresence>
       {loaded < 46 && !dataLoading && (
@@ -37,6 +38,12 @@ export default function LoadingScreen({ dataLoading }) {
               >
                 LOADING...
               </motion.p>
+              <div className="loading-screen__progress-track">
+                <div
+                  style={{ width: loadedPercent }}
+                  className="loading-screen__progress-inner"
+                />
+              </div>
             </motion.div>
           )}
         </motion.div>

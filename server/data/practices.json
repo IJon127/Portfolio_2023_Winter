@@ -1,7 +1,7 @@
 [
   {
     "title": "Creative Coding",
-    "cardPosition": { "top": "3750vh", "left": "0" },
+    "cardPosition": { "top": "3650vh", "left": "0" },
     "intro": [
       "In 2020, amidst the pandemic chaos, I sought solace in creative coding, discovering the vast potential of tools like p5.js and expanding my exploration to diverse libraries and frameworks such as openFrameworks, mayda.js, three.js, and shaders. Through this journey, I've melded technology and artistry, crafting nature-inspired graphics and games that redefine creativity. This transformative path has shaped me into a creative technologist, seamlessly fusing digital tools with artistic vision to create innovative, immersive experiences."
     ],
@@ -108,7 +108,7 @@
   },
   {
     "title": "Blender / Motion Graphics",
-    "cardPosition": { "top": "4080vh", "left": "0" },
+    "cardPosition": { "top": "3980vh", "left": "0" },
     "intro": [
       "Throughout the summer of 2022, I embraced a seven-week personal challenge, dedicating each day to Blender practices that immersed me in the world of 3D artistry. This commitment laid a robust foundation, refining my skills in procedural 3D modeling and lifelike rendering techniques. Exploring virtual environments and objects, I delved deep into intricate details while expanding my technical abilities and igniting a profound passion for the creative prospects within 3D design."
     ],

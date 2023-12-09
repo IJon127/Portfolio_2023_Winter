@@ -96,8 +96,8 @@ export default function Museum(props) {
       <Model {...props} />
       <group position={[6.872, 1.23, -7]} rotation={[0, -Math.PI / 2, 0]}>
         <Text
-          font="./fonts/OpenSans-SemiBold.woff"
-          fontSize={0.11}
+          font="./fonts/CrimsonText-SemiBold.woff"
+          fontSize={0.13}
           color="#353535"
           maxWidth={2}
         >
@@ -107,7 +107,7 @@ export default function Museum(props) {
           font="./fonts/OpenSans-Regular.woff"
           fontSize={0.06}
           color="#414141"
-          position={[0.22, -0.155, 0]}
+          position={[0.2, -0.155, 0]}
           maxWidth={2}
         >
           Creative tech architect: {"\n"}turning daily life into interactive
@@ -125,7 +125,7 @@ export default function Museum(props) {
       >
         Games / XR
       </Text>
-      <group position={[-4.1, 1.3, 9.521]} rotation={[0, -Math.PI, 0]}>
+      <group position={[-4.1, 1.3, 9.52]} rotation={[0, -Math.PI, 0]}>
         <Text
           font="./fonts/CrimsonText-SemiBold.woff"
           fontSize={0.1}

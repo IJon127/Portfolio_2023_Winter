@@ -1,15 +1,16 @@
 .project-info__title {
   text-align: center;
-  margin-top: 30px;
+  margin-top: 1.5em;
   margin-bottom: 10px;
-  font-weight: 500;
+  font-weight: 700;
 }
 .project-info__subtitle {
   margin-top: 0;
-  margin-bottom: 1em;
+  margin-bottom: 0.9em;
   text-align: center;
-  font-weight: 400;
+  font-weight: 200;
   font-style: italic;
+  font-family: "Libre Baskerville", serif;
 }
 .project-info__content {
   display: flex;
@@ -19,10 +20,9 @@
 .project-info__content p {
   text-align: center;
   font-size: 0.9em;
-  font-style: italic;
   line-height: 100%;
   margin: 3px;
-  font-weight: 100;
+  font-weight: 200;
 }
 
 @media only screen and (max-width: 426px) {

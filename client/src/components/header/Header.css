@@ -12,7 +12,7 @@
 .header__container {
   height: 50px;
   display: flex;
-  gap: 30px;
+  gap: 20px;
 }
 .header__btn {
   padding-bottom: 5px;

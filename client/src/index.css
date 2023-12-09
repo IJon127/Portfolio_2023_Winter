@@ -18,11 +18,17 @@ body,
 
 * {
   color: #eee;
-  font-family: "Open Sans", system-ui;
+  /* font-family: "Open Sans", system-ui; */
+
+  /* font-family: 'Libre Baskerville', serif; */
+  font-family: "Source Sans 3", sans-serif;
   box-sizing: border-box;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   -ms-box-sizing: border-box;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 ::-webkit-scrollbar {
@@ -76,10 +82,7 @@ button:hover {
 }
 
 h1 {
-  font-weight: 300;
-}
-h2 {
-  font-weight: 300;
+  font-family: "Libre Baskerville", serif;
 }
 
 @media only screen and (min-width: 769px) and (max-width: 1200px) {
