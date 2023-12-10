@@ -11,14 +11,14 @@ export default function ProjectSection({ projectName, section }) {
       )}
       {section.paragraphs &&
         section.paragraphs.map((para) => (
-          <p className="para" key={para}>
+          <p className="project-section__para" key={para}>
             {para}
           </p>
         ))}
       {section.lists && (
         <ul className="project-section__ul">
           {section.lists.map((list) => (
-            <li className="para" key={list}>
+            <li className="project-section__para" key={list}>
               {list}
             </li>
           ))}

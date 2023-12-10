@@ -1,9 +1,14 @@
 .project-section {
   margin-bottom: 50px;
+  max-width: 800px;
+  margin: auto;
 }
 .project-section__title-subtitle {
   margin-bottom: 20px;
   font-weight: 600;
+}
+
+.project-section__para {
 }
 
 .project-section__ul {
