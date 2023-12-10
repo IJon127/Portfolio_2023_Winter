@@ -83,7 +83,6 @@ export default function App() {
         />
       )}
       <LoadingScreen dataLoading={fetching} />
-      {/* <Loader containerStyles={{ backgroundColor: "#333333" }} /> */}
     </>
   );
 }
