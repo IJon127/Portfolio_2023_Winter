@@ -3,12 +3,13 @@ import { motion, AnimatePresence } from "framer-motion";
 import "./LoadingScreen.css";
 import { useEffect, useState } from "react";
 
-export default function LoadingScreen({ dataLoading }) {
+export default function LoadingScreen({ dataLoading, setWorldLoaded }) {
   const { loaded } = useProgress();
   const [loadedPercent, setLoadedPercent] = useState("0px");
   const pro = useProgress();
   useEffect(() => {
     setLoadedPercent(`${(loaded / 46) * 100}px`);
+    if (loaded >= 46) setWorldLoaded(true);
   }, [loaded]);
   return (
     <AnimatePresence>

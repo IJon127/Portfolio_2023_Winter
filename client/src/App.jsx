@@ -21,6 +21,9 @@ export default function App() {
   const [practicesFetching, setPracticesFetching] = useState(true);
   const [papersFetching, setPapersFetching] = useState(true);
 
+  //World loading
+  const [worldLoaded, setWorldLoaded] = useState(false);
+
   //Modal
   const [modalOpened, setModalOpened] = useState(false);
   const [modalContent, setModalContent] = useState();
@@ -62,7 +65,9 @@ export default function App() {
 
   return (
     <>
-      {!aboutFetching && <Header setModal={setModal} about={about} />}
+      {worldLoaded && !aboutFetching && (
+        <Header setModal={setModal} about={about} />
+      )}
       <Canvas>
         <Experience
           start={start}
@@ -82,7 +87,7 @@ export default function App() {
           setModalOpened={setModalOpened}
         />
       )}
-      <LoadingScreen dataLoading={fetching} />
+      <LoadingScreen dataLoading={fetching} setWorldLoaded={setWorldLoaded} />
     </>
   );
 }
