@@ -81,7 +81,7 @@ export default function Museum(props) {
       {/* EFFECTS */}
       <EffectComposer disableNormalPass>
         <Vignette offset={0.4} darkness={0.5} />
-        <Noise opacity={0.025} blendFunction={BlendFunction.HARD_LIGHT} />
+        <Noise opacity={0.03} blendFunction={BlendFunction.AVERAGE} />
       </EffectComposer>
 
       <pointLight position={[10.074, 1.28, 4.34]} intensity={0.06} />
