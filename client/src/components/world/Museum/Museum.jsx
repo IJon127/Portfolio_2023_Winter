@@ -7,12 +7,7 @@ import { useFrame } from "@react-three/fiber";
 import { MeshReflectorMaterial } from "@react-three/drei";
 import * as THREE from "three";
 import Model from "./MuseumModel.jsx";
-import {
-  Vignette,
-  Noise,
-  EffectComposer,
-  ToneMapping,
-} from "@react-three/postprocessing";
+import { Vignette, Noise, EffectComposer } from "@react-three/postprocessing";
 import { BlendFunction } from "postprocessing";
 import MuseumText from "./MuseumText.jsx";
 import MuseumLights from "./MuseumLights.jsx";
@@ -82,7 +77,6 @@ export default function Museum(props) {
     <group ref={modelRef}>
       {/* EFFECTS */}
       <EffectComposer disableNormalPass>
-        {/* <ToneMapping /> */}
         <Vignette offset={0.4} darkness={0.5} />
         <Noise opacity={0.03} blendFunction={BlendFunction.AVERAGE} />
       </EffectComposer>
