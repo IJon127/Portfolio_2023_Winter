@@ -10,6 +10,7 @@ export default function LoadingScreen({ dataLoading, setWorldLoaded }) {
   useEffect(() => {
     setLoadedPercent(`${(loaded / 46) * 100}px`);
     if (loaded >= 46) setWorldLoaded(true);
+    // console.log(loaded);
   }, [loaded]);
   return (
     <AnimatePresence>
