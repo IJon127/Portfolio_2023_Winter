@@ -13,8 +13,8 @@ export default function MuseumLights() {
       <ambientLight intensity={2} />
       <Sparkles
         size={0.7}
-        scale={[9, 3, 2.1]}
-        position={[1.5, 2, 8]}
+        scale={[8, 3, 2.1]}
+        position={[2, 2, 8]}
         speed={0.2}
         count={100}
       >

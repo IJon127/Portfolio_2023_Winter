@@ -20,9 +20,9 @@ void main() {
     vec4 viewPosition = viewMatrix * modelPosition;
     vec4 projectionPostion = projectionMatrix * viewPosition;
     gl_Position = projectionPostion;
-    gl_PointSize = size * 70.0 * uPixelRatio;
+    gl_PointSize = size * 50.0 * uPixelRatio;
     gl_PointSize *= (1.0 / - viewPosition.z);
 
     vUv = uv;
-    vNormalX = (position.x-1.5) / 9.0 + 0.5;
+    vNormalX = (position.x-2.0) / 8.0 + 0.5;
 }
