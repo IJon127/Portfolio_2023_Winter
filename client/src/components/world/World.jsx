@@ -7,7 +7,7 @@ import {
   useScroll,
 } from "@react-three/drei";
 import * as THREE from "three";
-import Museum from "./Museum";
+import Museum from "./Museum/Museum";
 
 export default function World({ start, activeAction, setActiveAction }) {
   const group = useRef();
