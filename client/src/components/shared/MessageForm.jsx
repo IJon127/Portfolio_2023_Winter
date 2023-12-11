@@ -17,10 +17,10 @@ export default function MessageForm({
     e.preventDefault();
     emailjs
       .sendForm(
-        process.env.REACT_APP_EMAIL_SERVICE_ID,
-        process.env.REACT_APP_EMAIL_TEMPLATE_ID,
+        import.meta.env.VITE_REACT_APP_EMAIL_SERVICE_ID,
+        import.meta.env.VITE_REACT_APP_EMAIL_TEMPLATE_ID,
         form.current,
-        process.env.REACT_APP_EMAIL_PUBLIC_KEY
+        import.meta.env.VITE_REACT_APP_EMAIL_PUBLIC_KEY
       )
       .then(
         (result) => {
