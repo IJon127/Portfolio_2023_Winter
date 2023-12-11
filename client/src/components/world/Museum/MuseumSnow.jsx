@@ -51,16 +51,6 @@ export default function MuseumSnow({ position, range, count }) {
               array={positions}
             />
           </bufferGeometry>
-          {/* <pointsMaterial args={[{ color: 0xffffff, size: 0.1 }]} /> */}
-          {/* <shaderMaterial
-            vertexShader={snowVertexShader}
-            fragmentShader={snowFragmentShader}
-            uniforms={{
-              uPixelRatio: { value: gl.getPixelRatio() },
-              uTime: { value: 0 },
-            }}
-            transparent={true}
-          /> */}
           <snowMaterial ref={snowMaterialRef} transparent={true} />
         </points>
       )}
