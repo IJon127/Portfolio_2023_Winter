@@ -1,6 +1,7 @@
 import { useState, useEffect, Suspense } from "react";
-import { OrbitControls, ScrollControls, Scroll } from "@react-three/drei";
-import { Perf } from "r3f-perf";
+import { ScrollControls, Scroll } from "@react-three/drei";
+// import { OrbitControls} from "@react-three/drei";
+// import { Perf } from "r3f-perf";
 import World from "./components/world/World";
 import Cards from "./components/cards/Cards";
 
