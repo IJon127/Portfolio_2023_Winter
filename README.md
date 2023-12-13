@@ -20,7 +20,7 @@ This portfolio project showcases a collection of 3D models created using Blender
 
 ## Demo
 
-coming soon
+![](/docs/demo.gif)
 
 ## License
 
